@@ -1,0 +1,82 @@
+.he_imagero{
+    background-image: url(hero_img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+  
+
+}
+.hero_wrapper{
+    position: absolute;
+    color:b;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+.hero_wrapper h1{
+    text-align: center;
+    font-size: 2.9rem;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.form{
+    text-align: center;
+}
+
+.form .post_code{
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border-radius: 30px;
+   border: 6px solid rgb(137, 137, 160);
+   padding: 0.7rem;
+
+}
+.form button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 15px;
+}
+/* PRODUCT SECTION */
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pli{
+    float: left;
+    width: 30%;
+
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.img_responsive{
+   width: 350px;
+   height: 350px;
+   max-width: 100%;
+}
+
+@media screen and (max-width : 800px){
+    .pli{
+        width: 100%;
+        float: none;
+    }
+    .form button{
+        padding: 5px 10px;
+
+    }
+} 
